@@ -228,7 +228,7 @@ def train_enhanced_model(model, Xs, y, conc, batch_size=64,
         verbose=1
     )
 
-    print("\n阶段3: 均衡微调，完善两个任务...")
+    print("\3")
     model.compile(
         optimizer=optimizers.Adam(learning_rate=0.00001),
         loss={
