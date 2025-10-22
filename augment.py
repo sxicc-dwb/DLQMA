@@ -72,7 +72,7 @@ def data_augmentation(spectra, n, max_pc, noise_level=0.0001, concentration_comp
     else:
         conc = np.zeros(2 * n, dtype=np.float32)
 
-    for i in tqdm(range(n), desc="数据增强"):
+    for i in tqdm(range(n), desc="waite"):
 
         n1 = np.random.normal(0, 1, p)
         n2 = np.random.normal(0, 1, p)
